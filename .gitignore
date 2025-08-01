@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Vite and build output
+dist/
+build/
+*.tsbuildinfo
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional: Netlify or Cloudflare specific
+.netlify/
+.functions/
+.cloudflare/
+
+# Optional: coverage reports (if using testing tools like Jest)
+coverage/
